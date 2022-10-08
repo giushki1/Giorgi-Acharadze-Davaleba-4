@@ -1,0 +1,275 @@
+body {
+  margin: 0px;
+  padding: 0px; 
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #3d58a6;
+}
+/* Header starts ! */
+.header {
+  width: 100%;
+}
+.logo {
+  width: 100px;
+  padding-top: 30px;
+  padding-left: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.navigation {
+  display: inline-block;
+}
+.active {
+  color:#ee4036;
+}
+.navigation-li {
+  font-size: 22px;
+  padding-left: 40px;
+  padding-top: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+/* Header ends ! */
+/* section starts ! */
+.banner {
+  width: 1170px;
+  height: 460px;
+  margin-top: 75px;
+  margin-left: 96px;
+  margin-bottom: 125px;
+}
+.title,.left-p,.left-text,.right-p,.right-text,.p-title {
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+.navigation-a,.may,.info,.contsct,.contact-a {
+  font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+.title{
+  margin-left: 98px;
+  font-size: 24px;
+  margin-bottom: 33px;
+}
+.title:hover {
+  color: grey;
+  cursor: pointer;
+}
+.left-box {
+  max-width: 570px;
+  height: 225px;
+  margin-left: 98px;
+  background-color: #f2f2f2;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+.left-box:hover {
+  border-radius: 30px;
+}
+.left-p {
+  color: #3d58a6; 
+  font-size: 22px;
+  padding-top: 18px;
+  padding-left: 20px;
+  padding-bottom: 18px;
+}
+.click-icon {
+  width: 100px; 
+  padding-left: 20px;
+  display: inline-block;
+  vertical-align:middle;
+}
+.left-text-box {
+  width: 356px;
+  display: inline-block;
+}
+.left-text {
+  font-size: 17px;
+  color: #333333;
+  padding-top: 22px;
+  padding-left: 61px;
+  padding-bottom: 24px;
+  display: inline-block;
+  vertical-align:middle;
+}
+.right-box {
+  max-width: 570px;
+  height: 225px;
+  margin-left: 30px;
+  background-color: #f2f2f2;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+.right-box:hover {
+  border-radius: 30px;
+}
+.right-p {
+  color: #3d58a6; 
+  font-size: 22px;
+  padding-top: 18px;
+  padding-left: 20px;
+  padding-bottom: 18px;
+}
+.mobile-icon {
+  width: 85px; 
+  padding-left: 20px;
+  display: inline-block;
+  vertical-align:middle;
+}
+.right-text-box {
+  width: 390px;
+  display: inline-block;
+}
+.right-text {
+  font-size: 17px;
+  color: #333333;
+  padding-top: 22px;
+  padding-left: 53px;
+  padding-bottom: 24px;
+  display: inline-block;
+  vertical-align:middle;
+}
+/* section ends ! */
+/*Footer starts!  */
+.fb-icon {
+  width: 14px;
+  margin-left: 110px;
+}
+.stick {
+  width: 1px;
+  height: 28px;
+  margin-left: 30px;
+  margin-top: 69px;
+  background-color: #3d58a6;
+  display: inline-block;
+}
+.yt-icon {
+  width: 25px;
+  margin-left:30px;
+}
+
+.footer {
+  padding-bottom: 20px;
+}
+/* Footer ends ! */
+/* Page-2 starts! */
+.date {
+  width: 56px;
+  height: 56px;
+  font-size: 37px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#f2f2f2;
+  cursor: pointer;
+  background-color: #3d58a6;
+  margin-top: 44px;
+  margin-left: 30px;
+  padding-top: 12px;
+  padding-bottom: 16px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+.date:hover {
+  width: 66px;
+  border-radius: 50%;
+}
+.may {
+  font-size: 22px;
+  color: #3d58a6;
+  margin-top: 10px;
+  margin-left: 30px;
+  transition: 0.3s ease;
+}
+.may:hover {
+  color: grey;
+}
+.p-title {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-top: 30px;
+  margin-bottom: 16px;
+  margin-left: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.p-title:hover {
+  color: grey;
+}
+.img1 {
+  width: 270px;
+  margin-left: 30px;
+  vertical-align: top;
+  cursor: pointer;
+}
+.par-box {
+  width: 930px;
+  margin-left: 39px;
+  display: inline-block;
+  vertical-align: top;
+}
+.text1,.text2 {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+}
+.text1 {
+  margin-left: 0px;
+}
+.text2 {
+  margin-top: 18px;
+}
+.sec {
+  margin-top: 90px;
+}
+/* Page-2 ends ! */
+/* Page-3 starts! */
+
+.section {
+  width: 1366px;
+  height: 570px;
+  margin: 22px auto;
+  background-color: #e6e6e6;
+}
+.contact {
+  width: 330px;
+  /* text-align:start; */
+  font-size: 15px;
+  line-height: 20px;
+  padding-top: 62px;
+  padding-left: 97px;
+  display: inline-block;
+  vertical-align: top;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+}
+.contact-a {
+  color: black;
+  font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+.info {
+  font-size: 18px;
+  color: #3d58a6;
+  font-weight: bold;
+}
+.google-map {
+  margin-top: 39px;
+  margin-left: 87px;
+  display: inline-block;
+  vertical-align: top;
+}
+.map {
+  width: 849px;
+}
+/* The End! :))) 05:46*/
+
+
+
+
+
+
+
